@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources xmlns="http://www.jboss.org/ironjacamar/schema">
+    <datasource jta="true" jndi-name="java:jboss/datasources/NewPersistenceDS1"
+                pool-name="NewPersistenceDS1" enabled="true" use-ccm="false" statistics-enabled="false">
+
+        <connection-url>jdbc:mysql://192.168.3.15/temp_kostas?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf-8</connection-url>
+        <driver>mysql</driver>
+        <pool>
+            <min-pool-size>0</min-pool-size>
+            <max-pool-size>5</max-pool-size>
+            <prefill>false</prefill>
+        </pool>
+        <security>
+            <user-name>root</user-name>
+            <password>mb955213a1e</password>
+        </security>
+    </datasource>
+</datasources>
